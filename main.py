@@ -6,6 +6,7 @@ from tkinter import filedialog
 from tkcalendar import DateEntry
 from PIL import ImageTk, Image
 from io import BytesIO
+from constants import API_KEY
 
 # define window
 root = tkinter.Tk()
@@ -29,7 +30,7 @@ def get_request():
 
     # set the parameter for the request
     url = 'https://api.nasa.gov/planetary/apod'
-    api_key = 'Your API Key'  # use your own api key
+    api_key = API_KEY  # use your own api key
     date = calendar.get_date()
     querry_string = {'api_key': api_key,  'date': date}
 

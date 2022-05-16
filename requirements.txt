@@ -1,0 +1,9 @@
+Babel==2.10.1
+certifi==2021.10.8
+charset-normalizer==2.0.12
+idna==3.3
+Pillow==9.1.0
+pytz==2022.1
+requests==2.27.1
+tkcalendar==1.6.1
+urllib3==1.26.9
